@@ -1,0 +1,120 @@
+body,ul,li{
+	margin: 0;
+}
+header{
+	position: relative;
+	height: 80px;
+	background-color: #9D02EF;
+}
+header .github{
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+header .nav{
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 10px;
+}
+.nav>ul{
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	display: inline-block;
+}
+.nav>ul>li{
+	margin-bottom: 0;
+	list-style: none;
+	font-family: 宋体;
+	float: right;
+	margin-left: 28px;
+	font-size: 14px;
+}
+.nav>ul>li>a{
+	color: white;
+	text-decoration: none;
+}
+.banner_bar{
+	width: 100%;
+	height: 580px;
+	position: relative;
+	background-color: red;
+}
+.banner{
+	width: 100%;
+	height: 100%;
+
+}
+.banner_intro{
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	box-sizing:border-box;
+	color: white;
+	right: 150px;
+	width: 300px;
+	padding: 10px 10px 30px;
+	background:-webkit-linear-gradient(top,rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0.0) 100%);
+}
+.banner_intro .title{
+	font-size: 14px;
+	margin: 0;
+	text-align: right;
+}
+.banner_intro .content{
+	margin-top: 12px;
+	line-height: 150%;
+	font-size: 12px;
+}
+.coll{
+	background-color: #ccc;
+	text-align: center;
+	
+}
+.colwrap{
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 120px;
+}
+.box{
+	margin: 10px 5px 0;	
+	width: 320px;
+	background-color: white;
+	float: left;
+	padding-bottom: 5000px;
+    margin-bottom: -5000px;
+}
+.coll .box img{
+	width: 300px;
+	height: 180px;
+	margin: 10px 10px 0;
+}
+.coll .box p{
+	margin: 15px 30px 25px;
+	font-size: 12px;
+	line-height: 170%;
+}
+.person{
+	text-align: center;
+}
+.person img{
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	margin-top: -30px;
+}
+.person h1{
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: Century Gothic;
+}
+.person p{
+	display: inline-block;
+	width: 600px;
+	line-height: 1.7;
+	text-align: left;
+	margin-bottom: 150px;
+}
